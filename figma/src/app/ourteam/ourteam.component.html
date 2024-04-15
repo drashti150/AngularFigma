@@ -1,0 +1,23 @@
+<div class="employee-team">
+    <div class="our-team">Our Team
+    </div>
+    <h1>Meet our dream team</h1>
+    <p>We’re dedicated group of Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+      laudantium</p>
+  
+  
+    <div *ngFor="let employee of employees" class="team-member">
+      <img [src]="employee.photo" [alt]="employee.name">
+      <h3>{{ employee.name }}</h3>
+      <p>{{ employee.position }}</p>
+    </div>
+  
+    <div class="employee-team-join">
+      <h2>Join Our Team</h2>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+  
+      <h6>View Current Openings<img src="\assets\arrowright.jpg"></h6>
+    </div>
+  </div>
+  

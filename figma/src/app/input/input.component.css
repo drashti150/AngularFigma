@@ -1,0 +1,21 @@
+input {
+  width: 480px;
+  height: 66px;
+  left: 178px;
+  top: 209px;
+  color: #111827;
+  background-color: #ffffff;
+  font-size: 14px;
+  font-weight: regular;
+  border-radius: 80px;
+  /* border: 2px solid black; */
+  /* box-shadow: #d32222; */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  margin-left: 23%;
+  border: none;
+}
+
+.input::placeholder{
+  margin-left: 10px;
+}
+

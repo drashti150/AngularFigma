@@ -1,0 +1,14 @@
+button {
+  width: 116px;
+  height: 44px;
+  color: #ffffff;
+  background-color: #F63A61;
+  border: 2px solid #D7163E;
+  font-size: 14px;
+  font-weight: regular;
+  border-radius: 20px;
+  position: absolute;
+  margin-left: -130px;
+  margin-top: 10px;
+  /* position: absolute; */
+}

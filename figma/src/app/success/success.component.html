@@ -1,0 +1,13 @@
+
+<div class="stat5">
+    <div class="proud">
+      <h2>Our 12 years of together have given us much to be proud of</h2>
+    </div>
+<div class="team">
+  <div *ngFor="let success of employees" class="team-member">
+    <img [src]="success.photo" [alt]="success.name">
+    <h3>{{ success.name }}</h3>
+    <p>{{ success.description }}</p>
+  </div> 
+</div> 
+</div>
